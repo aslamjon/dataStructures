@@ -1,4 +1,27 @@
 // https://www.youtube.com/watch?v=t2CEgPsws3U
+
+/* 
+    Stack haqaida tarif
+    Stack malumot oxiridan qo'shiladi va oxiridan o'chiriladi
+    yani Last in First out (LIFO)
+    Stack Big O Notetion da O(1) hisoblanadi
+
+    hayotiy misol:
+    ustma ust qo'yilgan CD disklar ni misol qilish mumkin. 
+    unga faqat ustidan disk qo'ysa bo'ladi va ustidan disk olib tashlanadi
+    |  |
+    |  |
+    ----
+
+    uning methodlari:
+    push(item) - malumot qo'shadi
+    pop() - malumotni o'chiradi va o'sha qiymatni qaytaradi
+    peek() - oxirgi malumotni ko'rsatadi lekin o'chirmaydi
+    count() - nechta malumot borligini ko'rsatadi
+    clear() - hamma malumotni tozalaydi
+
+*/ 
+
 console.log(`=================- Stack -=========================`);
 
 var letters = [];

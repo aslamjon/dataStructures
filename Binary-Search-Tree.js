@@ -1,3 +1,26 @@
+// https://www.youtube.com/watch?v=jsSyWVDzeX0&list=PL_WK6W0Gn1I7rCQ28pxKwHbSO1EGzB381&index=7
+
+/*          0
+          /   \
+         1     2
+        /  \  /  \
+       3   4  5   6
+    array ga qo'yish tartibi
+    let arr = [0,1,2,3,4,5,6]
+    chap bolasining indeksi = 2i+1
+    o'ng bolasining indexsi = 2i+2
+
+
+*/ 
+
+
+
+
+
+
+
+
+
 // https://www.youtube.com/watch?v=t2CEgPsws3U
 /* Binary Search Tree */
 

@@ -1,5 +1,27 @@
 // https://www.youtube.com/watch?v=t2CEgPsws3U
-/* Queues */
+/* Queues haqaida tarif
+
+    Queue ga yangi elementlar uning ortidan qo'shiladi.
+    o'chirmoqchi bo'lsag uni boshidan o'chiradi.
+    First in First out (FIFO) birinchi kirgan birnchi chiqadi
+    
+    Hayotiy misol: navbatlarda turishni misol qilish mumkin kim birinchi kelgan bo'lsa birinchi chiqadi
+    
+    Queue Big O Notetion da O(1) hisoblanadi
+
+    Queue ning methodlari:
+    Enqueue(item) - Orqasiga malumot qo'shadi
+    Dequeue() - Boshidagi malumotni o'chiradi va uni qaytaradi
+    Peek() - Boshidagi malumotni qaytaradi lekin uni o'chirmaydi
+    Clear() - hamma malumotni o'chiradi
+    Count() - queue da malumot qancha ekanligini ko'rsatadi
+
+    Queue ni qachon foydalaniladi?
+    bita narsadan bir nchta kishi  foydalansa masalan: local tarmoqda bita pirinter bor
+    uni bir kishidan ko'proq odam ishlatsa printer queue ga saqlaydi va navbatma navbat ishni boshlaydi
+
+
+*/
 
 function Queue () { 
     collection = [];
